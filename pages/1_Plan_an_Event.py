@@ -14,7 +14,7 @@ from langchain_openai import OpenAI
 event_id = None
 
 eventbrite_org_id = st.secrets["eventbrite_org_id"]
-eventbrite_auth_key = st.secrets["eventbrite_org_id"]
+eventbrite_auth_key = st.secrets["eventbrite_auth_key"]
 create_event_url = f"https://www.eventbriteapi.com/v3/organizations/{eventbrite_org_id}/events/"
 update_event_url = f"https://www.eventbriteapi.com/v3/events/{event_id}/"
 create_venue_url = f"https://www.eventbriteapi.com/v3/organizations/{eventbrite_org_id}/venues/"
