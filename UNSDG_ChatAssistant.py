@@ -1,10 +1,8 @@
 import streamlit as st
 import os
-import mlflow
 import json
 import requests
 import pandas as pd
-import torch
 
 import subprocess
 from sidebar import build_sidebar
