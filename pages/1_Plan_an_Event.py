@@ -191,7 +191,7 @@ with st.form("event_form", clear_on_submit=True):
                                 if event_description:
                                     goals_met = get_unsdg_goals_met(event_description)
                                     if goals_met:
-                                        st.write(goals_met.replace("{", "").replace("}", ""))
+                                        st.write(goals_met.replace("{", "").replace("}", "").replace("\"",""))
             else:
                 # Handle HTTP errors (e.g., client or server errors)
                 st.error(f'Error: {response.status_code}, {response.text}')
