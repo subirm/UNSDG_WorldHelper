@@ -187,7 +187,7 @@ with st.form("event_form", clear_on_submit=True):
                             # publish the event
                             if response.status_code == 200:    
                                 st.write(f'Your event has been created; please go to {event_url} to check and share the event!')
-                                st.warning('Please copy the link, it will not be available again and don't hesitate to contact us for any assistance', icon="⚠️")
+                                st.warning("Please copy the link, it will not be available again and don't hesitate to contact us for any assistance", icon="⚠️")
                                 if event_description:
                                     goals_met = get_unsdg_goals_met(event_description)
                                     if goals_met:
