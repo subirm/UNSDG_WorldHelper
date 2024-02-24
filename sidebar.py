@@ -21,7 +21,7 @@ def build_sidebar():
         ]
 
     # App sidebar
-    st.image("/assets/pippy.png", width=50)
+    st.image("./assets/pippy.png", width=50)
     st.write(
         "<h1>Hi, I'm <font color='#ffcdc2'>WorldHelper</font> - your personal UNSDG Helper</h1>",
         unsafe_allow_html=True,
