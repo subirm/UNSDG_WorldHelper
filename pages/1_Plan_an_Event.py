@@ -181,7 +181,7 @@ with st.form("event_form", clear_on_submit=True):
                 event_id = data['id']
 
                 if event_venue_id:
-                    if create_ticket_class(event_id, f"venue_{event_name}"):
+                    if create_ticket_class(event_id, f"{event_name}"):
                         with st.spinner('Creating event...'):
                             response = requests.post(f"https://www.eventbriteapi.com/v3/events/{event_id}/publish/", headers=headers)
                             # publish the event
