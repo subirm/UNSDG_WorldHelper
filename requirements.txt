@@ -2,4 +2,4 @@ openai==1.10.0
 langchain==0.1.4
 langchain-openai==0.0.5
 qdrant-client==1.7.2
-
+sentence-transformers==2.3.1
