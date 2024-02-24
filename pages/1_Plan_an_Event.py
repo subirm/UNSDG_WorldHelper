@@ -107,7 +107,7 @@ def create_ticket_class(event_id, name):
             return False
 
 
-st.set_page_config(page_title="Plan an event", page_icon="📈")
+st.set_page_config(page_title="Plan an event", page_icon="🗓️")
 
 st.markdown("# Plan an event")
 with st.sidebar:
