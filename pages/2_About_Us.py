@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Team Cherry Blossoms", page_icon="🗓️")
+st.set_page_config(page_title="Team Cherry Blossoms", page_icon="👧🏻")
 
 with st.sidebar:
     st.image("./assets/pippy.jpg", width=200)
