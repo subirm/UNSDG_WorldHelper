@@ -5,9 +5,9 @@ with st.sidebar:
 
 # Team Members Information
 team_members = [
-    {"name": "Megan", "role": "Team Leader", "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "profile_pic": "./assets/megan.jpg"},
-    {"name": "Luna", "role": "Design and Artwork", "bio": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "profile_pic": "./assets/luna.jpg"},
-    {"name": "Vidya", "role": "Technology", "bio": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.", "profile_pic": "./assets/vidya.jpg"}
+    {"name": "Megan", "role": "Team Leader", "bio": "Megan Bio", "profile_pic": "./assets/megan.jpg"},
+    {"name": "Luna", "role": "Design and Artwork", "bio": "Luna Bio", "profile_pic": "./assets/luna.jpg"},
+    {"name": "Vidya", "role": "Technology", "bio": "Vidya Bio", "profile_pic": "./assets/vidya.jpg"}
 ]
 
 # Display Team Members
