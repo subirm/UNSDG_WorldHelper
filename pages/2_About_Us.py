@@ -11,7 +11,7 @@ team_members = [
 st.title("About Us")
 
 for member in team_members:
-    col1, col2 = st.columns([1, 4])
+    col1, col2 = st.columns([1, 8])
     
     with col1:
         st.image(member["profile_pic"], width=200)
