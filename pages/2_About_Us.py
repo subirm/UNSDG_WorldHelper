@@ -11,8 +11,12 @@ team_members = [
 st.title("About Us")
 
 for member in team_members:
-    with st.beta_container():
+    col1, col2 = st.columns([1, 4])
+    
+    with col1:
         st.image(member["profile_pic"], width=200)
+    
+    with col2:
         st.subheader(member["name"])
         st.write(f"**Role:** {member['role']}")
         st.write(member["bio"])
