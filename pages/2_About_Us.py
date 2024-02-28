@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title="Team Cherry Blossoms", page_icon="🗓️")
+
 with st.sidebar:
     st.image("./assets/pippy.jpg", width=200)
 
@@ -10,9 +12,6 @@ team_members = [
     {"name": "Vidya", "role": "Technology Lead", "bio": "Vidya bio", "profile_pic": "./assets/vidya.jpg"}
 ]
 
-# Display Team Members
-st.title("Team Cherry Blossoms")
-st.empty()
 
 st.write("""World Helper is an app that helps communities make the world a
 better place. This app helps you learn about the UN Sustainable
@@ -25,6 +24,8 @@ had a special role to play in creating World Helper. Megan is the team leader; V
 brings our artwork to life.\n\n""")
 
 st.write("\n\n\n\n")
+
+# Display Team Members
 
 for member in team_members:
     col1, col2 = st.columns([1, 2])
