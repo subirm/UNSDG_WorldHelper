@@ -30,6 +30,6 @@ for member in team_members:
         st.image(member["profile_pic"], width=200)
     
     with col2:
-        st.subheader(member["name"])
+        st.markdown(f"<h3>{member['name']}</h3>", unsafe_allow_html=True)  # Adjust the header size here
         st.write(f"**Role:** {member['role']}")
         st.write(member["bio"])
