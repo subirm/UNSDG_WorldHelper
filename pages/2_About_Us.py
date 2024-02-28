@@ -8,7 +8,7 @@ team_members = [
 ]
 
 # Display Team Members
-st.title("About Us")
+st.title("Team Cherry Blossoms")
 
 st.write("""World Helper is an app that helps communities make the world a
 better place. This app helps you learn about the UN Sustainable
