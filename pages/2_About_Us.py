@@ -1,5 +1,8 @@
 import streamlit as st
 
+with st.sidebar:
+    st.image("./assets/pippy.jpg", width=200)
+
 # Team Members Information
 team_members = [
     {"name": "Megan", "role": "Team Leader", "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "profile_pic": "./assets/megan.jpg"},
