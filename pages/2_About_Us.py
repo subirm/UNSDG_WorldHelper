@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.empty()
+
 with st.sidebar:
     st.image("./assets/pippy.jpg", width=200)
 
@@ -13,6 +13,7 @@ team_members = [
 
 # Display Team Members
 st.title("Team Cherry Blossoms")
+st.empty()
 
 st.write("""World Helper is an app that helps communities make the world a
 better place. This app helps you learn about the UN Sustainable
