@@ -24,10 +24,7 @@ def display_team_members():
 # Main Page
 def main_page():
     st.title("Team Cherry Blossoms")
-    
-    # Clear the specific page before loading content
-    if st.button("Clear Layout"):
-        st.experimental_rerun()
+    st.experimental_rerun()
 
     # Load the content for this specific page
     display_team_members()
