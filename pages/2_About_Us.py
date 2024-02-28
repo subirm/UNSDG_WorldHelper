@@ -21,7 +21,7 @@ had a special role to play in creating World Helper. Megan is head
 of organization; Vidya leads on the technology side; and Luna
 brings our artwork to life.\n\n""")
 
-st.write("\n\n")
+st.write("\n\n\n\n")
 
 for member in team_members:
     col1, col2 = st.columns([1, 2])
