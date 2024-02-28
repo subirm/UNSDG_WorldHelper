@@ -2,9 +2,9 @@ import streamlit as st
 
 # Team Members Information
 team_members = [
-    {"name": "Megan", "role": "Data Scientist", "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "profile_pic": "/assets/megan.jpg"},
-    {"name": "Luna", "role": "Software Engineer", "bio": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "profile_pic": "/assets/luna.jpg"},
-    {"name": "Vidya", "role": "UX Designer", "bio": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.", "profile_pic": "/assets/vidya.jpg"}
+    {"name": "Megan", "role": "Data Scientist", "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "profile_pic": "./assets/megan.jpg"},
+    {"name": "Luna", "role": "Software Engineer", "bio": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "profile_pic": "./assets/luna.jpg"},
+    {"name": "Vidya", "role": "UX Designer", "bio": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.", "profile_pic": "./assets/vidya.jpg"}
 ]
 
 # Display Team Members
