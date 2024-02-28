@@ -24,7 +24,7 @@ def display_team_members():
 # Main Page
 def main_page():
     st.title("Team Cherry Blossoms")
-    st.experimental_rerun()
+    st.rerun()
 
     # Load the content for this specific page
     display_team_members()
