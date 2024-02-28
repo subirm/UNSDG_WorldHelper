@@ -10,7 +10,7 @@ team_members = [
 # Display Team Members
 st.title("About Us")
 
-st.write("World Helper is an app that helps communities make the world a
+st.write("""World Helper is an app that helps communities make the world a
 better place. This app helps you learn about the UN Sustainable
 Development Goals. It also helps you plan events that support the
 UN Sustainable Development Goals. \n 
@@ -19,7 +19,7 @@ three friends who attend Osler Elementary School in Vancouver,
 Canada. This is our second Technovation project. We each have
 had a special role to play in creating World Helper. Megan is head
 of organization; Vidya leads on the technology side; and Luna
-brings our artwork to life.")
+brings our artwork to life.""")
 
 for member in team_members:
     col1, col2 = st.columns([1, 2])
