@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.empty()
 with st.sidebar:
     st.image("./assets/pippy.jpg", width=200)
 
