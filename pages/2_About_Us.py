@@ -28,5 +28,5 @@ def main_page():
     display_team_members()
 
 # Display the main page
-st.rerun()
+# st.rerun()
 main_page()
