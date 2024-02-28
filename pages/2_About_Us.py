@@ -38,3 +38,4 @@ for member in team_members:
         st.markdown(f"<h4>{member['name']}</h4>", unsafe_allow_html=True)  # Adjust the header size here
         st.write(f"**Role:** {member['role']}")
         st.write(member["bio"])
+        st.write("\n\n")
