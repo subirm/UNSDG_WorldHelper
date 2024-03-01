@@ -28,7 +28,7 @@ from qdrant_client import QdrantClient
 NUM_TEXT_MATCHES = 3
 
 # Similarity threshold such that queried text with a lower will be discarded 
-# Range [0, 1], larger = more similar for cosine similarity
+# Range [0, 1], larger = more similar 
 SIMILARITY_THRESHOLD = 0.83
 
 
