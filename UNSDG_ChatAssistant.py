@@ -1,12 +1,14 @@
-import streamlit as st
-import os
-import json
-import requests
-import pandas as pd
+# Import necessary libraries and modules
+import streamlit as st  # For creating web apps
+import os  # To interact with the operating system
+import json  # To work with JSON data
+import requests  # To make HTTP requests
+import pandas as pd  # For data manipulation and analysis
 
-import subprocess
-from sidebar import build_sidebar
+import subprocess  # To run shell commands
+from sidebar import build_sidebar  # Import a function to build the app's sidebar
 
+# Import various components from the langchain library for conversation handling
 from langchain.chains import ConversationChain
 from langchain.embeddings import HuggingFaceBgeEmbeddings
 from langchain_openai import ChatOpenAI
@@ -42,12 +44,13 @@ qdrant_client = QdrantClient(host="59f8f159-fb60-44e8-bfc4-9f35c77ca8d4.us-east4
                              api_key=qdrant_key)
 
 
+# Configure the Streamlit app's page
 
 # App title
 st.set_page_config(page_title="UNSDG ChatAssist", layout="wide")
 
 
-# App sidebar
+# Build the app's sidebar
 with st.sidebar:
     build_sidebar()
 
@@ -97,7 +100,7 @@ def get_relevant_docs(user_input):
 
     return urls, titles, contexts
 
-
+# Function to build the system prompt based on user input
 def build_system_prompt(user_input):
 
     urls, titles, contexts = get_relevant_docs(user_input)
@@ -138,7 +141,7 @@ def queryAIModel(user_input):
     return output
 
 
-# Function for generating LLM response
+# Function for generating a response from OpenAI
 def generate_response(prompt):
     response_generated = queryAIModel(prompt)
     return response_generated
