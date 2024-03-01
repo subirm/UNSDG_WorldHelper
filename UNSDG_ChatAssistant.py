@@ -1,3 +1,10 @@
+"""
+The provided code integrates various libraries and services to create a chat application focused on the United Nations Sustainable Development Goals (UNSDG)
+When a user asks or chooses a question it first looks up a database for context, adds the context to the question and then asks ChatGPT for an answer
+given the question and the context that has been provided
+"""
+
+
 # Import necessary libraries and modules
 import streamlit as st  # For creating web apps
 import os  # To interact with the operating system
