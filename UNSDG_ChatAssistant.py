@@ -3,7 +3,6 @@ The code below integrates various libraries and services to create a chat applic
 When a user asks or chooses a question it first looks up a database for context, adds the context to the question and then asks ChatGPT for an answer
 """
 
-
 # Import necessary libraries and modules
 import streamlit as st  # For creating web apps
 import os  # To interact with the operating system
