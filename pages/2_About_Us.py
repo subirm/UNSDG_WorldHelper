@@ -1,8 +1,8 @@
 # First, we're getting our tool ready. It's like opening your box of crayons before you start drawing.
 import streamlit as st
 
-# Here, we're setting up our drawing board, giving it a name so everyone knows it's about Team Cherry Blossoms.
-st.set_page_config(page_title="Team Cherry Blossoms")
+# Here, we're setting up our drawing board, giving it a name so everyone knows it's about Team World Helpers.
+st.set_page_config(page_title="Team World Helpers")
 
 # We're deciding to put a special picture on the side of our drawing board. It's like sticking a sticker on the side of your notebook.
 with st.sidebar:
