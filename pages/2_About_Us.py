@@ -10,7 +10,7 @@ with st.sidebar:
 
 # Now, we're making a list of our team, like writing down the names of your friends who helped you with a big school project.
 team_members = [
-    {"name": "Megan", "role": "Team Leader", "bio": "hi bob", "profile_pic": "./assets/megan.jpg"},  # Megan is the team captain!
+    {"name": "Megan", "role": "Team Leader", "bio": "Hello, I'm Megan. I am the team leader of World Helpers.My friends and I study at Osler Elementary School. I am in grade 3. I spend my free time reading and making comics with my friends", "profile_pic": "./assets/megan.jpg"},  # Megan is the team captain!
     {"name": "Luna", "role": "Design and Artwork", "bio": "hi bobbieeeee", "profile_pic": "./assets/luna.jpg"},  # Luna makes things look pretty.
     {"name": "Vidya", "role": "Technology Lead", "bio": "hi whats up", "profile_pic": "./assets/vidya.jpg"}  # Vidya is the tech wizard.
 ]
