@@ -10,9 +10,9 @@ with st.sidebar:
 
 # Now, we're making a list of our team, like writing down the names of your friends who helped you with a big school project.
 team_members = [
-    {"name": "Megan", "role": "Team Leader", "bio": "Megan bio", "profile_pic": "./assets/megan.jpg"},  # Megan is the team captain!
-    {"name": "Luna", "role": "Design and Artwork", "bio": "Luna bio", "profile_pic": "./assets/luna.jpg"},  # Luna makes things look pretty.
-    {"name": "Vidya", "role": "Technology Lead", "bio": "Vidya bio", "profile_pic": "./assets/vidya.jpg"}  # Vidya is the tech wizard.
+    {"name": "Megan", "role": "Team Leader", "bio": "hi bob", "profile_pic": "./assets/megan.jpg"},  # Megan is the team captain!
+    {"name": "Luna", "role": "Design and Artwork", "bio": "hi bobbieeeee", "profile_pic": "./assets/luna.jpg"},  # Luna makes things look pretty.
+    {"name": "Vidya", "role": "Technology Lead", "bio": "hi whats up", "profile_pic": "./assets/vidya.jpg"}  # Vidya is the tech wizard.
 ]
 
 # Now, we're writing a little story about our app, like the introduction to a  book.
