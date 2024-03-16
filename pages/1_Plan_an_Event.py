@@ -124,6 +124,7 @@ st.markdown("""
 
 **Fill in the details below and click “Submit” to find out which UNSDG your event supports!**  
 **You might be surprised and learn something new!**
+
 """)
 with st.sidebar:
     st.image("./assets/pippy.jpg", width=200)  # Show a picture on the side.
