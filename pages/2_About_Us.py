@@ -4,6 +4,8 @@ import streamlit as st
 # Here, we're setting up our drawing board, giving it a name so everyone knows it's about Team World Helpers.
 st.set_page_config(page_title="Team World Helpers")
 
+st.header(body, anchor=None, *, help=None, divider=False)
+
 # We're deciding to put a special picture on the side of our drawing board. It's like sticking a sticker on the side of your notebook.
 with st.sidebar:
     st.image("./assets/pippy.jpg", width=200)  # Showing a cool picture on the side.
