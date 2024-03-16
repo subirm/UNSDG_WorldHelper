@@ -120,7 +120,7 @@ st.set_page_config(page_title="Plan an event")
 st.markdown("# Plan an event \n")
 st.markdown("""
 **Plan an Event and find out which UN Sustainable Development Goals your event supports!**  
-**We are so excited that you want to plan an event that supports the UNSDG.**  
+**We are so excited that you want to plan an event that supports the UNSDG.\n**  
 **Fill in the details below and click “Submit” to find out which UNSDG your event supports!**  
 **You might be surprised and learn something new!**
 """)
